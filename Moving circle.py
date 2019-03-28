@@ -4,6 +4,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import animation
 
+plt.style.use('dark_background')
+
 frames = 200
 fig = plt.figure()
 ax = plt.axes(xlim=(-2, 2), ylim=(-2, 2))

@@ -4,6 +4,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import animation
 
+plt.style.use('dark_background')
 
 numframes = 100
 numpoints = 10
